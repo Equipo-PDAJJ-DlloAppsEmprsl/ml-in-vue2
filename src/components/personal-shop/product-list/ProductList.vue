@@ -101,3 +101,6 @@ export default {
   },
 };
 </script>
+<style scoped>
+@import url('./ProductList.css');
+</style>

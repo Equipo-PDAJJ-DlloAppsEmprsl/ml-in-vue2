@@ -2,8 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import MainView from '@/components/personal-shop/MainView.vue';
 import ProductList from '@/components/personal-shop/product-list/ProductList.vue'
-import Detail from '@/components/detail.vue';
-
+import ProductDetail from '@/components/personal-shop/product-detail/ProductDetail.vue';
 Vue.use(Router);
 
 export default new Router(
@@ -28,7 +27,7 @@ export default new Router(
             {
                 path: '/detail/:id',
                 name: 'detail',
-                component: Detail
+                component: ProductDetail
             }
         ]
     }

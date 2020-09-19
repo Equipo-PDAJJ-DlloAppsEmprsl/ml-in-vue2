@@ -1,7 +1,9 @@
 <template>
   <div>
     <ShopHeader/>
-    <router-view></router-view>
+    <div class="product-list-cont">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 <script>
@@ -17,3 +19,9 @@ export default {
 };
 </script>
 
+<style scoped>
+.product-list-cont {
+    display: flex;
+    justify-content: center;
+}
+</style>
