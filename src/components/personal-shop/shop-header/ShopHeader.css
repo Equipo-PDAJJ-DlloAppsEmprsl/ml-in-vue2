@@ -1,0 +1,25 @@
+.v-toolbar__content {
+    background-color: #FBF159;
+    color: #3B3815;
+}
+.v-icon notranslate mdi mdi-heart theme--dark::after {
+    fill: #3B3815;
+}
+.titulo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: bold;
+}
+.ml-logo {
+    width: 100px !important;
+}
+
+.spacer {
+    flex: 2 1 auto;
+}
+
+.aniversario {
+    width: 300px;
+}
