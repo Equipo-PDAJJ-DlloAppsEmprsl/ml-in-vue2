@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import MainView from '@/components/personal-shop/MainView';
-import ProductList from '@/components/personal-shop/product-list/ProductList';
+import Search from '@/components/search.vue';
 import Detail from '@/components/detail.vue';
 
 Vue.use(Router);
@@ -23,7 +23,7 @@ export default new Router(
             {
                 path: '/products/:search/:offset',
                 name: 'products',
-                component: ProductList
+                component: Search
             },
             {
                 path: '/detail/:id',
