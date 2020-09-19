@@ -31,27 +31,8 @@
     </v-sheet>
   </v-card>
 </template>
-<script>
-export default {
-  name: "CustomHeader",
+<script src="./ShopHeader.js">
 
-  components: {},
-  data: () => ({ search: "" }),
-  methods: {
-    searchs() {
-      this.$router.push({
-        name: "products",
-        params: { search: this.search, offset: 0 },
-      });
-      this.search = "";
-    },
-    home() {
-      this.$router.push({
-        name: "MainView",
-      });
-    },
-  },
-};
 </script>
 <style scoped>
 @import "./ShopHeader.css";
