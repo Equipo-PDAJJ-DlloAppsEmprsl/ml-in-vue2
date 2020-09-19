@@ -40,14 +40,14 @@ export default {
   methods: {
     searchs() {
       this.$router.push({
-        name: "search",
+        name: "products",
         params: { search: this.search, offset: 0 },
       });
       this.search = "";
     },
     home() {
       this.$router.push({
-        name: "mainPage",
+        name: "MainView",
       });
     },
   },

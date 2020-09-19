@@ -1,4 +1,4 @@
-# mercadolibreapi
+# ml-in-vue2
 
 ## Project setup
 ```
