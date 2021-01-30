@@ -7,7 +7,7 @@
     <v-container fluid>
       <v-row dense>
         <v-col v-bind:key="result.thumbnail" v-for="result in results " cols=3>
-          <v-card dark @click="details(result.id)">
+          <v-card class="card-mijo" dark @click="details(result.id)">
               <v-img :src="result.thumbnail" height="200px" >
                 <v-card-title v-text="result.price"></v-card-title>
               </v-img>
